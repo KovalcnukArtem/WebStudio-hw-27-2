@@ -1,0 +1,99 @@
+/* .menu-container {
+    position: absolute; */
+    /* display: flex;
+    transform: translateY(50%);
+    height: 300px;
+    width: 100px;
+    overflow: hidden;
+    background-color: grey;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+.side-title {
+    color: white;
+    position: absolute;
+    right: -10%;
+    top: 20%;
+    /* transform: translateY(-50%);
+    transform: rotate(90deg);
+    margin: 0;
+    padding: 0;
+
+}
+.side-menu-list  {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.side-menu-item {
+    color: white;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+.menu-container:hover .side-title {
+    opacity: 0;
+}
+.menu-container:hover {
+    width: 200px;
+}
+.menu-container:hover .side-menu-item {
+    opacity: 1;
+}
+.side-menu-item:hover {
+    color: darkgoldenrod;
+}
+
+body {
+  background-color: olive;
+}  
+
+
+/*  */
+body {
+    background-color: white;
+}
+
+.box {
+    position: absolute;
+    top: 35%;
+    width: 200px;
+    height: 300px;
+    background-color: grey;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+    transform: translateX(-80%);
+}
+
+.box:hover {
+    transform: translateX(0%);
+}
+
+.box:hover h2 {
+    opacity: 0;
+}
+
+h2 {
+    position: absolute;
+    right: -50px;
+    top: 130px;
+    transform: rotate(90deg);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    position: absolute;
+    left: 0;
+    top: 15%;
+    color: white;
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    color: darkgoldenrod;
+}
